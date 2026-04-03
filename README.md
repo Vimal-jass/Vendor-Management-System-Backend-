@@ -60,41 +60,6 @@ This system simulates a real-world business workflow where internal users manage
 
 ---
 
-##  Folder Structure
-
-src/
-│
-├── config/
-│   └── db.js
-│
-├── controllers/
-│   ├── auth.controller.js
-│   ├── user.controller.js
-│   ├── vendor.controller.js
-│   └── invoice.controller.js
-│
-├── models/
-│   ├── user.model.js
-│   ├── vendor.model.js
-│   └── invoice.model.js
-│
-├── routes/
-│   ├── auth.routes.js
-│   ├── user.routes.js
-│   ├── vendor.routes.js
-│   └── invoice.routes.js
-│
-├── middlewares/
-│   ├── auth.middleware.js
-│   ├── role.middleware.js
-│   └── upload.middleware.js
-│
-├── uploads/
-│
-└── app.js
-
----
-
 ##  Authentication Flow
 
 1. User logs in using email & password
